@@ -1,4 +1,3 @@
-
 :not(:defined) > * {
   display: none;
 }
@@ -61,16 +60,16 @@ model-viewer {
 }
 
 .HotspotAnnotation{
-  background: #ffffff;
+  background: #fff;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   display: block;
   font-family: Futura, Helvetica Neue, sans-serif;
   font-size: 12px;
   font-weight: 700;
   left: calc(100% + 1em);
-  max-width: 150px;
+  max-width: 128px;
   overflow-wrap: break-word;
   padding: 0.5em 1em;
   position: absolute;
@@ -160,7 +159,8 @@ model-viewer {
 
 model-viewer > #ar-prompt {
   position: absolute;
-
+  left: 50%;
+  bottom: 60px;
   animation: elongate 2s infinite ease-in-out alternate;
   display: none;
 }
